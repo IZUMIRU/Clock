@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         image7 = UIImage(named: "7.png")
         image8 = UIImage(named: "8.png")
         image9 = UIImage(named: "9.png")
-        
+    
         timer=NSTimer.scheduledTimerWithTimeInterval(1.0,target: self,
                                                         selector: Selector("time"),
                                                         userInfo: nil,
